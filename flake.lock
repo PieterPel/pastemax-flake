@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1759036355,
+        "narHash": "sha256-0m27AKv6ka+q270dw48KflE0LwQYrO7Fm4/2//KCVWg=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "e9f00bd893984bc8ce46c895c3bf7cac95331127",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "pastemax-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1757219325,
+        "narHash": "sha256-5tsz2sJYrL5s/EaQZub7aU1Bd8jqH0yuc+RYbS63piE=",
+        "owner": "kleneway",
+        "repo": "pastemax",
+        "rev": "1949259d446cc94cca050f97e19472bfd4df7d36",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kleneway",
+        "repo": "pastemax",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "pastemax-src": "pastemax-src"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
